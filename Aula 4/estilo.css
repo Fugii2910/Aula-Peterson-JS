@@ -1,0 +1,168 @@
+/*
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: darkblue;
+    margin: 0;
+}
+
+#lampada{
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 4px solid black;
+    transition: all 0.3 ease; ----------------"Faz o brilho aparecer suavemente"
+}
+
+button{
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+----------Centralizar na tela
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+--------------Estilo do relogio
+#relogio{
+    font-family: 'Sagoe UI', sans-serif;
+    color: rgb(155, 36, 155);
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 0 0 30px rgb(155, 0, 124)
+}
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0);
+    text-align: center  ;
+}
+
+h1 {color: black;}
+
+input{
+    padding: 20px;
+    width: 80px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+button {
+display: block;
+width: 100%;
+margin-top: 20px;
+padding: 12px;
+background-color:white;
+border: none;
+border-radius: 8px;
+font-size: 1rem;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background-color:rgb(255, 0, 0)
+
+}
+
+.resultado-texto {
+margin-top: 20px;
+font-size: 1.2rem;
+color:#555;
+}
+
+#resultado {
+color:bluex ;
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+---------------------------------------------------------------------------------------------------*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.container{
+    text-align: center;
+}
+
+#contador{
+    font-size: 80px;
+    margin: 10px 0;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btnHype{
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 65, 108, 0.4);
+}
+
+#btnHype:active { transform: scale(0.9);}
+
+#btnReset{
+    background: transparent;
+    color: #555;
+    margin-top: 20px;
+}
